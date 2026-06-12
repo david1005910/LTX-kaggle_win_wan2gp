@@ -1,0 +1,11 @@
+{
+    "settings_version": 2.61,
+    "model_type": "t2v_1.3B",
+    "prompt": "A peaceful koi pond with pink cherry blossom petals slowly drifting down onto the rippling water surface, soft afternoon sunlight, cinematic, highly detailed",
+    "resolution": "832x480",
+    "video_length": 25,
+    "num_inference_steps": 15,
+    "seed": 7777,
+    "flow_shift": 5.0,
+    "sample_solver": "unipc"
+}

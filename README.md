@@ -11,6 +11,7 @@
 | `Wan2GP/scripts/args.txt` | `python wgp.py`에 붙일 추가 인자(공식 `scripts/run.bat`이 읽음, 현재는 참고용) |
 | `test_wan2gp.sh` / `test_wan2gp.bat` | 스모크 테스트 — 짧은 t2v_1.3B 클립을 헤드리스로 1건 생성 후 결과 폴더 열기 |
 | `Wan2GP/settings/test_smoke.json` | 위 스모크 테스트가 사용하는 최소 settings (832×480, 25프레임, 15스텝, seed=42) |
+| `overlays/` | `Wan2GP/` 클론 안에 얹어 쓰는 보조 파일들의 백업 (`CLAUDE.md`, `scripts/args.txt`, `settings/test_smoke*.json`). 새 머신에서는 `cp -r overlays/* Wan2GP/`로 한 번에 복원. 자세히는 `overlays/README.md` |
 
 ---
 
