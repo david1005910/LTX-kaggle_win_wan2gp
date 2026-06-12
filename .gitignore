@@ -1,0 +1,30 @@
+# Upstream WanGP clone — huge, not part of this launcher repo
+Wan2GP/
+
+# Generated media / experiments
+*.mp4
+*.mkv
+*.mov
+*.webm
+*.wav
+*.mp3
+*.png
+*.jpg
+*.jpeg
+
+# Notebooks (optional — remove if you want to track them)
+*.ipynb
+.ipynb_checkpoints/
+
+# OS / editor / temp
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+*.log
+
+# Local config / secrets
+.env
+*.local
